@@ -90,7 +90,7 @@ mh = bv_metropolis(
 
 # We proceed to estimate a BVAR(13):
 run1 = bvar(vars, 13, 
-            n_draw = 200000, 
+            n_draw = 250000, 
             n_burn = 3000, 
             n_thin = 5, 
             priors = priors,
